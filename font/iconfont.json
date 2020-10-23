@@ -1,0 +1,100 @@
+{
+  "id": "2130316",
+  "name": "古驰项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "829225",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "1226977",
+      "name": "发送信息_填充",
+      "font_class": "fasongxinxitianchong",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "7914894",
+      "name": "小红书",
+      "font_class": "xiaohongshu",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "978354",
+      "name": "微信",
+      "font_class": "gongzhonghao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "5950874",
+      "name": "腾讯视频",
+      "font_class": "tengxunshipin",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "6756291",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "8571264",
+      "name": "抖音",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1511902",
+      "name": "电话",
+      "font_class": "phone-channel",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "1917705",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "8871245",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "11750690",
+      "name": "购物袋69",
+      "font_class": "gouwudai",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "13421533",
+      "name": "定位",
+      "font_class": "icon-test1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14112844",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    }
+  ]
+}

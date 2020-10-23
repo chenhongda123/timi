@@ -1,0 +1,450 @@
+
+.header_mild{
+    width: 100%;
+    position: fixed;
+    height: 120px;
+    top: 0;
+    left: 0;
+    background-color: #1b1b1b;
+    z-index: 100;
+}
+
+.logo{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    z-index: 100;
+    padding: 26px 0 16px;
+    text-align: center;
+    font-size: 0;
+    opacity: 1;
+    height: 69px;
+    transition: height .2s ease-out,opacity .2s ease-out,padding .2s ease-out;
+}
+
+
+.logo img {
+    display: inline-block;
+    width: 160px;
+    margin: 0 auto;
+}
+.logo_nav{
+  
+    display: block;
+    height: 51px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+.logo_nav_pills{
+    display: block;
+    height: 51px;
+    /* display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;  */
+    text-align: center;
+}
+
+#header .logo_nav_other_bottom{
+    position: fixed;
+    top: 27px;
+    left: 3px;
+    font-size: 0;
+    z-index: 100;
+}
+
+
+
+.logo_nav_menu{
+    overflow: hidden;
+    display: inline-block;
+    color: #ffffff;
+    
+}
+.logo_nav_menu>a{
+    height: 51px;
+    padding: 0 15px;
+    line-height: 30px;
+    color: #e5dfd9;
+    font-size: 14px;
+    letter-spacing: 1.34px;
+    font-family: Futura-LT-Medium,GucciChinese;
+    position: relative;
+    z-index: 19;
+}
+
+
+
+
+
+
+#footer{
+    width: 100%;
+    background: #1b1b1b;
+    position: relative;
+    z-index: 0;
+    padding: 48px 15px 15px;
+    /* background-color: #1b1b1b; */
+}
+.footer_container{
+    max-width: 1215px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.back_top{
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: -36px;
+    right: 24px;
+    font-size: 0;
+}
+
+.footer_content {
+    font-size: 0;
+}
+.footer_content_left{
+    display: inline-block;
+    vertical-align: top;
+    width: 66.66667%;
+    padding-top: 11px;
+}
+.footer_content_left>ul {
+    padding-left: 23px;
+    font-size: 0;
+}
+
+.footer_content_left>ul>li {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+.footer-title {
+    margin-bottom: 28px;
+}
+.footer-title span {
+    font-family: Futura-LT-Medium,GucciChinese;
+    font-size: 12px;
+    color: #e5dfd9;
+    opacity: .5;
+    letter-spacing: 0;
+}
+
+.footer_content_left>ul>li>ul>li {
+    margin-bottom: 13.4px;
+}
+
+.footer_content_left>ul>li>ul>li a {
+    font-size: 0;
+    line-height: 14px;
+    display: inline-block;
+    color: #e5dfd9;
+    font-family: FuturaLT-Book,GucciChinese;
+    position: relative;
+}
+.footer_content_left>ul>li>ul>li a span {
+    display: inline-block;
+    font-family: FuturaLT-Book,GucciChinese;
+    font-size: 11px;
+    -webkit-transform: scale(.91667);
+    -moz-transform: scale(1);
+    -webkit-transform-origin-x: 0;
+    color: #e5dfd9;
+    letter-spacing: 0;
+    vertical-align: middle;
+}
+.footer_tails {
+    position: relative;
+    top: 27px;
+}
+
+.footer_follow_gucci {
+    padding-left: 11px;
+}
+
+.footer_content_right{
+        display: inline-block;
+        vertical-align: top;
+        width: 33.33333%;
+}
+
+.footer_content_right_content{
+    padding-left: 15%;
+}
+
+.footer_right-title {
+    font-family: Futura-LT-Medium,GucciChinese;
+    font-size: 12px;
+    color: #e5dfd9;
+    opacity: .5;
+    letter-spacing: 0;
+}
+
+
+.footer_content_left>ul>li>ul>li a i {
+    font-size: 16px;
+    padding: 0 5px 0 0;
+}
+ .footer_content_left>ul>li>ul>li a i {
+    vertical-align: middle;
+    width: 24px;
+    opacity: .25;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity = 25);
+    filter: alpha(opacity=25);
+    color: #e5dfd9;
+}
+
+
+.spice_info {
+    font-family: FuturaLT-Book,GucciChinese;
+    font-size: 11px;
+    -webkit-transform: scale(.91667);
+    -moz-transform: scale(1);
+    -webkit-transform-origin-x: 0;
+    color: #e5dfd9;
+    letter-spacing: 0;
+    margin-top: 12px;
+}
+
+.spice_info a {
+    letter-spacing: 0;
+    border-bottom: 1px solid #e5dfd9;
+    color: #e5dfd9;
+    font-family: FuturaLT-Book,GucciChinese;
+}
+
+.spice-no-error-style-input {
+    position: relative;
+}
+
+.input_submit {
+    max-width: 222px;
+    margin-top: 23px;
+}
+
+input {
+    height: 37px;
+    line-height: 16px;
+    color: #1b1b1b;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 12px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    outline: 0 solid transparent;
+    border-radius: 0;
+    outline-offset: 0;
+    transition: border-color .1s ease-in-out;
+    transition: outline-color .1s ease-in-out;
+}
+
+.text_input{
+    float: left;
+    width: 180px;
+    height: 28px;
+    background: #000;
+    border: 1px solid transparent!important;
+    outline: none;
+    color: #e5dfd9;
+}
+
+
+.form_registered {
+    margin: 12px 0 20px;
+}
+
+.shop_inquiry {
+    padding-top: 20px;
+    min-height: 0;
+}
+
+.shop_group{
+    margin-top: 23px;
+}
+
+.form_group_city{
+    max-width: 296px;
+    margin-bottom: 15px;
+}
+
+.dropdown{
+    display: inline-block;
+    width: 139px;
+}
+
+.dropdown:nth-child(2){
+    float: right;
+}
+
+.dropdown_first{
+    font-family: FuturaLT-Book,GucciChinese;
+    color: #1b1b1b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    height: 37px;
+    line-height: 35px;
+    font-size: 12px;
+    padding: 0 18px 0 10px;
+    position: relative;
+    border: 1px solid #fff;
+    background: #fff;
+    outline: none!important;
+}
+
+ .dropdown_first-btn{
+    
+    background: #000;
+    border: none;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    padding-right: 28px; 
+} 
+
+ .dropdown_text{
+    font-family: FuturaLT-Book,GucciChinese;
+    display: block;
+    font-size: 12px;
+    color: #e5dfd9;
+    letter-spacing: 0;
+} 
+
+.other_group_city_box{
+    padding-bottom: 20px;
+    max-width: 296px;
+}
+
+.other_group_city{
+    position: relative;
+    display: block;
+    font-family: FuturaLT-Book,GucciChinese;
+    font-size: 11px;
+    -webkit-transform: scale(.91667);
+    -moz-transform: scale(1);
+    -webkit-transform-origin-x: 0;
+    color: hsla(30,19%,87%,.5);
+    letter-spacing: 0;
+    width: 139px;
+    display: inline-block;
+}
+
+.other_group_city:nth-child(2){
+    float: right;
+}
+
+.footer_right_info{
+margin-top: 0;
+    margin-bottom: 5px;
+}
+.footer_right_info ul li>a {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+    }
+
+.svg-iconfont {
+    font-family: svg-iconfont!important;
+    font-size: 12px;
+    display: inline-block;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-svg-equilibrium {
+    width: 70px;
+    height: 46px;
+}
+
+.footer-copyright {
+    margin-top: 21px;
+    padding: 0 24px;
+}
+
+.footer-police {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    font-weight: 700;
+}
+.footer-police a {
+    display: inline-block;
+    font-family: FuturaLT-Light,GucciChinese;
+    color: hsla(30,19%,87%,.5);
+    letter-spacing: 0;
+}
+.footer-police a span {
+    display: inline-block;
+    font-size: 11px;
+    -webkit-transform: scale(.91667);
+    -moz-transform: scale(1);
+    -webkit-transform-origin-x: 0;
+}
+
+.footer-copyright-text{
+    float: left;
+    font-family: FuturaLT-Book,GucciChinese;
+    font-size: 11px;
+    -webkit-transform: scale(.91667);
+    -moz-transform: scale(1);
+    -webkit-transform-origin-x: 0;
+    color: hsla(30,19%,87%,.5);
+    letter-spacing: 0;
+    margin-right: 2.7%;
+    font-weight: 700;
+}
+
+.footer-icp {
+    position: relative;
+    top: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+
+.footer-icp a {
+    display: inline-block;
+    font-family: FuturaLT-Light,GucciChinese;
+    color: hsla(30,19%,87%,.5);
+    letter-spacing: 0;
+}
+.footer-icp a:first-child {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.footer-icp a:nth-child(2) {
+    margin-left: 2px;
+}
+
+.footer-icp a span {
+    display: inline-block;
+    font-size: 11px;
+    -webkit-transform: scale(.91667);
+    -moz-transform: scale(1);
+    -webkit-transform-origin-x: 0;
+}
+
+.float-clearfix {
+    clear: both!important;
+}
+
+.float-clearfix:after {
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
